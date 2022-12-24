@@ -208,7 +208,7 @@ dns:
   # Clash 总会选用 nameserver 列表中配置 DNS 服务器解析得到的结果。
   #
   # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
-fallback-filter:
+  fallback-filter:
   geoip: true
   geoip-code: CN
   ipcidr:
